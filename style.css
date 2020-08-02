@@ -1,0 +1,187 @@
+body{
+    background-color: #F4F6F7;
+}
+
+.container{
+    background-color: white;
+    padding: 10px;
+}
+#navbar .navbar-brand {
+    /* border-radius: 50%; */
+    /* padding-left: 30px; */
+    /* height:110px; */
+    margin-right: 0;
+}
+#navbar    
+{
+    height: 80px;
+    box-shadow: 0px 1px 5px 0px rgba(235, 231, 231, 0.45);
+    /* position: fixed; */
+    z-index: 1;
+    opacity: .8;
+}
+#navbarNav .nav-item a {
+    color: black;
+}
+.nav-item
+{
+    /* background-color: palegoldenrod; */
+    margin-right: 5px;
+}
+ 
+
+#navbarNav .nav-item .nav-link:hover
+{
+    color:#3498DB;
+   
+}
+
+#navbarNav .nav-item:hover{
+    border-bottom: 1px solid black;
+    /* background-color: palegoldenrod; */
+    /* transition: cubic-bezier(0.6, -0.28, 0.735, 0.045); */
+}
+#logo-title
+{
+    padding: 0;
+}
+
+#carouselExampleCaptions
+{
+    position: relative;
+    z-index: -1;
+}
+
+
+
+#hr1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+.marketing
+{
+    text-align: center;
+    background-color: #FDFEFE;
+}
+.marketing .col-md-4:hover
+{
+    box-shadow:inset 0px 1px 20px 0px rgba(0,0,0,0.75);
+}
+
+.metal_img
+{
+    border-radius: 50%;
+    border:1px solid black;
+
+}
+
+.metal_img:hover{
+    box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
+    transform: scale(1.5);
+}
+.marketing .diesimg{
+    background-color: #D6EAF8;
+}
+
+.marketing .sheetmetal_img ,.pressimg{
+    background-color:#D6EAF8;
+}
+
+.featurette
+{
+    align-items: center;
+}
+/*About us*/
+#mission_vision .card
+{
+    background-color: #D6EAF8;
+}
+#aboutus
+{
+    text-align: center;
+    font-family: "Berlin Sans FB Demi";
+}
+
+#iso_img
+{
+    text-align: center;
+    padding-top: 27px;
+}
+
+
+#checkmark
+{
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+#checkmark span
+{
+    margin-right: 5px;
+}
+
+/*Footer*/
+footer
+{
+    background-color: #283747;
+    height: 100px;
+    text-align: center;
+    color: white;
+    
+}
+.footer
+{
+    margin: 0;
+}
+
+/*Utility classes*/
+.h-primary
+{
+    font-size: 2.5rem;
+}
+
+.h-secondary{
+    font-size: 1.5rem;
+}
+
+.carousel-caption{
+    background-color: black;
+    opacity: .8;
+}
+
+.lead{
+    text-align: justify;
+}
+
+
+
+/*media query*/
+
+@media(max-width: 992px) {
+    #navbarNav .nav-item {
+        /* border-bottom: 1px solid black; */
+        background-color: #85929E;
+    }
+
+    #navbarNav .nav-item .nav-link {
+        color: white
+    }
+
+    #navbarNav .nav-item .nav-link:hover{
+        color: black
+    }
+
+    #iso_img img
+    {
+        width:250px;
+        height:250px;
+    }
+
+    #checkmark img
+    {
+            width: 30px;
+            height:30px;
+    }
+}
